@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@300&family=Volkhov&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #222;
+  line-height: 1.5;
+}
+
+h1, h2, h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900
+}
+
+h2, h4 {
+  margin-top: 0;
+}
+
+img {
+	height: 350px;
+}
+
+img { 
+ float: left; 
+ padding: 0 20px 20px 0;
+}
+
+header:before, nav:before, main:before, section:before, article:before, aside:before, footer:before {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+nav, footer {
+  border: 1px solid #222;
+  padding: 1em;
+}
+
+header, main, aside {
+  border: 1px solid #F3F3FF;
+  padding: 1em;
+}
+
+img {
+  display: block;
+}
+
+
+header {
+  background-color: #FFF;
+  color: #000;
+}
+
+header {
+  background-color: #F3F3FF;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  background-color: #F3F3FF;
+}
+
+section {
+  background-color: #F3F3FF;
+}
+
+
+article {
+  background-color: #F3F3FF;
+}
+
+aside:before {
+  content: "<aside>";
+  color: #777;
+}
+
+aside {
+  background-color: #999;
+}
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
